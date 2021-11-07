@@ -1,4 +1,7 @@
-module.exports = {
+// Custom change to let the library work using vanilla JS - Dasun - GitHub handle nirm2009
+// module.exports = {
+// Custom change to let the library work using vanilla JS - Dasun - GitHub handle nirm2009
+export default {
   id: 'en',
   handler: function pluralize_en(val) {
     const n = Number(val),
